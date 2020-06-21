@@ -1,0 +1,30 @@
+{
+  "name": "padraonodejs",
+  "version": "1.0.0",
+  "description": "Padão de projeto em Node",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev -r tsconfig-paths/register --respawn --transpileOnly --ignore-watch node_modules --no-notify src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oicramkroll/PadraoNodeJs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oicramkroll/PadraoNodeJs/issues"
+  },
+  "homepage": "https://github.com/oicramkroll/PadraoNodeJs#readme",
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.49",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.6",
+    "express": "^4.17.1"
+  }
+}
